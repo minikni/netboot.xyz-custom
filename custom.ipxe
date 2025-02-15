@@ -6,7 +6,11 @@
 :start
 echo Hello world!
 sleep 10
-goto custom_exit
+
+:poweroff
+echo This shit should be shutting down.
+poweroff
 
 :custom_exit
+echo custom_exit
 exit 0
